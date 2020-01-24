@@ -17,4 +17,4 @@ class Controller{
   }
 }
 
-const app = new Controller(new Model, new View)
+const app = new Controller(new Model(), new View())
