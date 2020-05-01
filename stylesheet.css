@@ -1,1 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
+html {
+  line-height: 1.5;
+  min-height: 100vh;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  /* Disables horizontal scroll */
+  overflow-x: hidden;
+}
+
+
+
+/*
+For less than 800px
+@media screen and (max-width: 800px) {}
+*/
